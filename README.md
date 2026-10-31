@@ -35,7 +35,7 @@ Computes prayer times for UNILAG Akoka from solar astronomy — offline, no API 
 then reports which lectures leave no room for which prayer, and lists prayer spaces on
 campus.
 
-`Next.js` · `TypeScript` · `Tailwind` · 33 tests · **[10 drafted first issues](https://github.com/mssnunilag/salah/blob/main/ISSUES.md)**
+`Next.js` · `TypeScript` · `Tailwind` · 34 tests · **[10 open issues](https://github.com/mssnunilag/salah/issues)**
 
 > Good first contribution with no code: verify one campus prayer space and correct its
 > entry. Every one is currently marked unverified.
@@ -53,7 +53,7 @@ returns a portion to a one-day interval, and the day's queue comes back in Qur'a
 order rather than most-overdue-first. Progress is counted in distinct ayahs, so it can
 never exceed 100%.
 
-`Next.js` · `TypeScript` · `Tailwind` · 47 tests · **[10 drafted first issues](https://github.com/bytheitc/hifz/blob/main/ISSUES.md)**
+`Next.js` · `TypeScript` · `Tailwind` · 48 tests · **[10 open issues](https://github.com/bytheitc/hifz/issues)**
 
 > Good first contribution: add the 30 juz boundaries. Everyone thinks in juz and the
 > app cannot express them.
@@ -71,7 +71,7 @@ halal. Every entry records *how we know* — certified, Muslim-owned, community-
 or unverified — and a claim above `unverified` without a note saying who checked
 **fails the build**.
 
-`Next.js` · `TypeScript` · `Tailwind` · 25 tests · **[10 drafted first issues](https://github.com/mssnunilag/halal/blob/main/ISSUES.md)**
+`Next.js` · `TypeScript` · `Tailwind` · 26 tests · **[10 open issues](https://github.com/mssnunilag/halal/issues)**
 
 > The most accessible project here. Most pull requests are data, and `pnpm validate`
 > checks them for you before CI does.
@@ -87,7 +87,7 @@ and some arithmetic — just enough friction that the question goes unasked.
 Works out zakat on wealth with the full working shown, Zakat al-Fitr by measure and by
 price, and splits a monthly allowance with sadaqah and savings taken out *first*.
 
-`Next.js` · `TypeScript` · `Tailwind` · 27 tests · **[10 drafted first issues](https://github.com/bytheitc/zakat/blob/main/ISSUES.md)**
+`Next.js` · `TypeScript` · `Tailwind` · 28 tests · **[10 open issues](https://github.com/bytheitc/zakat/issues)**
 
 > Where scholars differ, this app offers an option and names it. It never decides.
 
@@ -146,10 +146,22 @@ pnpm dev
 If a project ever asks you for an API key, a `.env` file or a database connection,
 that is a bug — please open an issue.
 
-Then read that project's `ISSUES.md`. Each has ten drafted tasks marked [Easy] gentle,
-[Medium] straightforward or [Hard] needs thought, saying what to do and which files to touch.
-Comment on the matching GitHub issue to claim one so two people do not do the same
-work.
+Then open that project's issue tracker. Every task is a real issue, labelled by
+difficulty and by the kind of work it is, saying what to do and which files to touch.
+Comment on one to claim it, so two people do not do the same work.
+
+| Label | What it means |
+| --- | --- |
+| `easy` | Gentle. Several need no JavaScript at all |
+| `medium` | Straightforward code, with tests |
+| `hard` | Needs some thought; a few want a discussion first |
+| `data` | Changes seed or reference data rather than code |
+| `accessibility` | A barrier affecting people with disabilities |
+| `needs discussion` | Agree an approach in the issue before writing code |
+
+Every issue also carries `good first issue` and `hacktoberfest`. The quickest way in is
+the `easy` plus `data` pair: correcting a seed entry somebody guessed at is a complete,
+genuinely useful contribution.
 
 ## What we care about in a contribution
 
