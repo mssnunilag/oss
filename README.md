@@ -25,7 +25,7 @@ a network is an app that fails in the lecture hall.
 
 ## The projects
 
-### 🕌 [salat-campus](https://github.com/mssnunilag/salah) — prayer times and timetable conflicts
+### [salat-campus](https://github.com/mssnunilag/salah) — prayer times and timetable conflicts
 
 **The problem.** You register for courses in week one. Around week six you notice your
 Tuesday lab runs 3pm–6pm, which is the whole of the 'Asr window. Nothing told you,
@@ -42,7 +42,7 @@ campus.
 
 ---
 
-### 📖 [hifz-trail](https://github.com/bytheitc/hifz) — Qur'an memorisation and revision
+### [hifz-trail](https://github.com/bytheitc/hifz) — Qur'an memorisation and revision
 
 **The problem.** Memorising is the part people plan; revision is the part that decides
 whether any of it lasts. Portions are lost quietly, because nothing ever said they
@@ -60,7 +60,7 @@ never exceed 100%.
 
 ---
 
-### 🍲 [halal-bites-unilag](https://github.com/mssnunilag/halal) — halal food directory
+### [halal-bites-unilag](https://github.com/mssnunilag/halal) — halal food directory
 
 **The problem.** Ask a new student where to eat and the answer is "ask around". The
 information exists, scattered across WhatsApp groups and hostel corridors, and every
@@ -78,7 +78,7 @@ or unverified — and a claim above `unverified` without a note saying who check
 
 ---
 
-### 💰 [zakat-kit](https://github.com/bytheitc/zakat) — zakat calculator and allowance planner
+### [zakat-kit](https://github.com/bytheitc/zakat) — zakat calculator and allowance planner
 
 **The problem.** Students assume zakat is not their concern, right up until someone is
 holding a term's saved fees for eight months. Finding out otherwise means four lookups
@@ -146,8 +146,8 @@ pnpm dev
 If a project ever asks you for an API key, a `.env` file or a database connection,
 that is a bug — please open an issue.
 
-Then read that project's `ISSUES.md`. Each has ten drafted tasks marked 🟢 gentle,
-🟡 straightforward or 🔴 needs thought, saying what to do and which files to touch.
+Then read that project's `ISSUES.md`. Each has ten drafted tasks marked [Easy] gentle,
+[Medium] straightforward or [Hard] needs thought, saying what to do and which files to touch.
 Comment on the matching GitHub issue to claim one so two people do not do the same
 work.
 
