@@ -1,0 +1,416 @@
+{
+  "core": {
+    "spacing": {
+      "1": {
+        "$value": "4px",
+        "$type": "dimension"
+      },
+      "2": {
+        "$value": "8px",
+        "$type": "dimension"
+      },
+      "3": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "4": {
+        "$value": "16px",
+        "$type": "dimension"
+      },
+      "5": {
+        "$value": "20px",
+        "$type": "dimension"
+      },
+      "6": {
+        "$value": "24px",
+        "$type": "dimension"
+      },
+      "8": {
+        "$value": "32px",
+        "$type": "dimension"
+      },
+      "10": {
+        "$value": "40px",
+        "$type": "dimension"
+      },
+      "12": {
+        "$value": "48px",
+        "$type": "dimension"
+      }
+    },
+    "radius": {
+      "sm": {
+        "$value": "4px",
+        "$type": "dimension"
+      },
+      "md": {
+        "$value": "6px",
+        "$type": "dimension"
+      },
+      "lg": {
+        "$value": "8px",
+        "$type": "dimension"
+      },
+      "xl": {
+        "$value": "12px",
+        "$type": "dimension"
+      },
+      "full": {
+        "$value": "9999px",
+        "$type": "dimension"
+      }
+    },
+    "fontSize": {
+      "xs": {
+        "$value": "12px",
+        "$type": "dimension",
+        "$description": "hints, metadata, provenance notes"
+      },
+      "sm": {
+        "$value": "14px",
+        "$type": "dimension",
+        "$description": "body \u2014 the default throughout"
+      },
+      "base": {
+        "$value": "16px",
+        "$type": "dimension"
+      },
+      "lg": {
+        "$value": "18px",
+        "$type": "dimension"
+      },
+      "2xl": {
+        "$value": "24px",
+        "$type": "dimension",
+        "$description": "page title, and the single headline number"
+      }
+    },
+    "fontWeight": {
+      "normal": {
+        "$value": 400,
+        "$type": "fontWeight"
+      },
+      "medium": {
+        "$value": 500,
+        "$type": "fontWeight"
+      },
+      "semibold": {
+        "$value": 600,
+        "$type": "fontWeight"
+      }
+    },
+    "size": {
+      "contentNarrow": {
+        "$value": "672px",
+        "$type": "dimension",
+        "$description": "max-w-2xl \u2014 zakat-kit, a single column of inputs"
+      },
+      "content": {
+        "$value": "768px",
+        "$type": "dimension",
+        "$description": "max-w-3xl \u2014 the three list-based apps"
+      },
+      "gutter": {
+        "$value": "16px",
+        "$type": "dimension",
+        "$description": "minimum side padding at phone width"
+      }
+    }
+  },
+  "theme/salat-campus": {
+    "$description": "Green reads as MSSN without borrowing the society's actual marks.",
+    "color": {
+      "ink": {
+        "$value": "#0b1f17",
+        "$type": "color",
+        "$description": "primary text"
+      },
+      "inkSoft": {
+        "$value": "#3d5b4e",
+        "$type": "color",
+        "$description": "secondary text, hints, metadata"
+      },
+      "parchment": {
+        "$value": "#f6f4ee",
+        "$type": "color",
+        "$description": "page background"
+      },
+      "card": {
+        "$value": "#ffffff",
+        "$type": "color",
+        "$description": "raised surface \u2014 cards, panels"
+      },
+      "rule": {
+        "$value": "#e2e0d8",
+        "$type": "color",
+        "$description": "borders and dividers"
+      },
+      "brand": {
+        "$value": "#0f6b4a",
+        "$type": "color",
+        "$description": "primary action, progress fill, active tab"
+      },
+      "brandSoft": {
+        "$value": "#e6f2ec",
+        "$type": "color",
+        "$description": "brand-tinted background \u2014 callouts, selected states"
+      },
+      "pageDark": {
+        "$value": "#0b1512",
+        "$type": "color",
+        "$description": "body background under prefers-color-scheme: dark"
+      }
+    },
+    "status": {
+      "clear": {
+        "$value": "#0f6b4a",
+        "$type": "color",
+        "$description": "prayer window has comfortable free time"
+      },
+      "tight": {
+        "$value": "#a1620a",
+        "$type": "color",
+        "$description": "under 10 free minutes in the window"
+      },
+      "blocked": {
+        "$value": "#a4243b",
+        "$type": "color",
+        "$description": "no free moment at all \u2014 lectures cover it entirely"
+      }
+    }
+  },
+  "theme/hifz-trail": {
+    "$description": "Warm and paper-like. A record kept slowly over years should not look like a dashboard.",
+    "color": {
+      "ink": {
+        "$value": "#1c1a16",
+        "$type": "color",
+        "$description": "primary text"
+      },
+      "inkSoft": {
+        "$value": "#6b6353",
+        "$type": "color",
+        "$description": "secondary text, hints, metadata"
+      },
+      "parchment": {
+        "$value": "#faf7f0",
+        "$type": "color",
+        "$description": "page background"
+      },
+      "card": {
+        "$value": "#ffffff",
+        "$type": "color",
+        "$description": "raised surface \u2014 cards, panels"
+      },
+      "rule": {
+        "$value": "#e6e0d2",
+        "$type": "color",
+        "$description": "borders and dividers"
+      },
+      "brand": {
+        "$value": "#7a5c1e",
+        "$type": "color",
+        "$description": "primary action, progress fill, active tab"
+      },
+      "brandSoft": {
+        "$value": "#f3ecdb",
+        "$type": "color",
+        "$description": "brand-tinted background \u2014 callouts, selected states"
+      },
+      "pageDark": {
+        "$value": "#15130f",
+        "$type": "color",
+        "$description": "body background under prefers-color-scheme: dark"
+      }
+    },
+    "status": {
+      "solid": {
+        "$value": "#2f6b3d",
+        "$type": "color",
+        "$description": "recalled cleanly \u2014 interval advances"
+      },
+      "shaky": {
+        "$value": "#9a6b12",
+        "$type": "color",
+        "$description": "recalled with effort \u2014 interval holds"
+      },
+      "lost": {
+        "$value": "#96302f",
+        "$type": "color",
+        "$description": "not recalled \u2014 returns to a one-day interval"
+      }
+    }
+  },
+  "theme/halal-bites-unilag": {
+    "$description": "Four assurance colours must never be mistaken for the price band beside them.",
+    "color": {
+      "ink": {
+        "$value": "#1a1714",
+        "$type": "color",
+        "$description": "primary text"
+      },
+      "inkSoft": {
+        "$value": "#6a6058",
+        "$type": "color",
+        "$description": "secondary text, hints, metadata"
+      },
+      "parchment": {
+        "$value": "#fbf8f4",
+        "$type": "color",
+        "$description": "page background"
+      },
+      "card": {
+        "$value": "#ffffff",
+        "$type": "color",
+        "$description": "raised surface \u2014 cards, panels"
+      },
+      "rule": {
+        "$value": "#e8e1d8",
+        "$type": "color",
+        "$description": "borders and dividers"
+      },
+      "brand": {
+        "$value": "#9a4f16",
+        "$type": "color",
+        "$description": "primary action, progress fill, active tab"
+      },
+      "brandSoft": {
+        "$value": "#f7ebe0",
+        "$type": "color",
+        "$description": "brand-tinted background \u2014 callouts, selected states"
+      },
+      "pageDark": {
+        "$value": "#161310",
+        "$type": "color",
+        "$description": "body background under prefers-color-scheme: dark"
+      }
+    },
+    "status": {
+      "certified": {
+        "$value": "#1f6b43",
+        "$type": "color",
+        "$description": "holds halal certification, seen in person"
+      },
+      "owned": {
+        "$value": "#3f6ba8",
+        "$type": "color",
+        "$description": "Muslim-owned, confirmed in person"
+      },
+      "reported": {
+        "$value": "#8a6a12",
+        "$type": "color",
+        "$description": "a student reported eating here"
+      },
+      "unverified": {
+        "$value": "#8a8178",
+        "$type": "color",
+        "$description": "nobody has checked"
+      }
+    }
+  },
+  "theme/zakat-kit": {
+    "$description": "Ledger green. The result panel must read as arithmetic, not as a verdict.",
+    "color": {
+      "ink": {
+        "$value": "#141a18",
+        "$type": "color",
+        "$description": "primary text"
+      },
+      "inkSoft": {
+        "$value": "#5b6b64",
+        "$type": "color",
+        "$description": "secondary text, hints, metadata"
+      },
+      "parchment": {
+        "$value": "#f5f8f6",
+        "$type": "color",
+        "$description": "page background"
+      },
+      "card": {
+        "$value": "#ffffff",
+        "$type": "color",
+        "$description": "raised surface \u2014 cards, panels"
+      },
+      "rule": {
+        "$value": "#dde5e1",
+        "$type": "color",
+        "$description": "borders and dividers"
+      },
+      "brand": {
+        "$value": "#12594a",
+        "$type": "color",
+        "$description": "primary action, progress fill, active tab"
+      },
+      "brandSoft": {
+        "$value": "#e4efeb",
+        "$type": "color",
+        "$description": "brand-tinted background \u2014 callouts, selected states"
+      },
+      "pageDark": {
+        "$value": "#0e1412",
+        "$type": "color",
+        "$description": "body background under prefers-color-scheme: dark"
+      }
+    },
+    "status": {
+      "due": {
+        "$value": "#12594a",
+        "$type": "color",
+        "$description": "zakat is payable"
+      },
+      "short": {
+        "$value": "#8a6a12",
+        "$type": "color",
+        "$description": "below the nisab threshold"
+      },
+      "over": {
+        "$value": "#9b3030",
+        "$type": "color",
+        "$description": "fixed costs exceed income"
+      }
+    }
+  },
+  "$metadata": {
+    "tokenSetOrder": [
+      "core",
+      "theme/salat-campus",
+      "theme/hifz-trail",
+      "theme/halal-bites-unilag",
+      "theme/zakat-kit"
+    ]
+  },
+  "$themes": [
+    {
+      "id": "salat-campus",
+      "name": "salat-campus",
+      "selectedTokenSets": {
+        "core": "source",
+        "theme/salat-campus": "enabled"
+      }
+    },
+    {
+      "id": "hifz-trail",
+      "name": "hifz-trail",
+      "selectedTokenSets": {
+        "core": "source",
+        "theme/hifz-trail": "enabled"
+      }
+    },
+    {
+      "id": "halal-bites-unilag",
+      "name": "halal-bites-unilag",
+      "selectedTokenSets": {
+        "core": "source",
+        "theme/halal-bites-unilag": "enabled"
+      }
+    },
+    {
+      "id": "zakat-kit",
+      "name": "zakat-kit",
+      "selectedTokenSets": {
+        "core": "source",
+        "theme/zakat-kit": "enabled"
+      }
+    }
+  ]
+}
